@@ -26,7 +26,7 @@ def options(screen, back_ground, settings):
 
     while True:
         options_text = get_font(45).render("General Settings", True, "Black")
-        options_rect = options_text.get_rect(center=(900, 35))
+        options_rect = options_text.get_rect(center=(width/2, length/10))
         screen.blit(options_text, options_rect)
 
         for event in pygame.event.get():
