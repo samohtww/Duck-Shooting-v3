@@ -10,11 +10,11 @@ def menu(screen, back_ground, settings):
 
     while True:
         mouse_pos = pygame.mouse.get_pos()
-        play_button = Button(image=pygame.image.load("Assets/Pictures/Play Rect.png"), pos=(83, 275), 
+        play_button = Button(image=pygame.image.load("Assets/Button/Play Rect.png"), pos=(83, 275), 
                     text_input="PLAY", font=get_font(25), base_color="#d7fcd4", hovering_color="White")
-        options_button = Button(image=pygame.image.load("Assets/Pictures/Options Rect.png"), pos=(120, 325), 
+        options_button = Button(image=pygame.image.load("Assets/Button/Options Rect.png"), pos=(120, 325), 
                     text_input="OPTIONS", font=get_font(25), base_color="#d7fcd4", hovering_color="White")
-        quit_button = Button(image=pygame.image.load("Assets/Pictures/Quit Rect.png"), pos=(80, 375), 
+        quit_button = Button(image=pygame.image.load("Assets/Button/Quit Rect.png"), pos=(80, 375), 
                     text_input="QUIT", font=get_font(25), base_color="#d7fcd4", hovering_color="White")
         
         for button in [play_button, options_button, quit_button]:

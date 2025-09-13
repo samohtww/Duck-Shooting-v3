@@ -4,9 +4,9 @@ from Assets.PythonFiles.font import get_font
 from Assets.PythonFiles.button import Button
 from pygame_widgets.dropdown import Dropdown
 
-Duck_1 = pygame.image.load("Assets/Pictures/Duck_easy_blue.PNG")
-Deer_1 = pygame.image.load("Assets/Pictures/Deer1.PNG")
-Frog_1 = pygame.image.load("Assets/Pictures/Frog1.PNG")
+Duck_1 = pygame.image.load("Assets/Targets/Animals/Deer2.PNG")
+Deer_1 = pygame.image.load("Assets/Targets/Animals/Deer2.PNG")
+Frog_1 = pygame.image.load("Assets/Targets/Animals/Deer2.PNG")
 
 lanes = 2
 
